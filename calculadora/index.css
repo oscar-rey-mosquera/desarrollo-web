@@ -26,6 +26,14 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
 }
 
 .icon-container {
@@ -53,11 +61,75 @@
 
 
 .btn {
-    width: 30px;
-    height: 0px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     border: 0px;
-    margin: 2px;
-    font-size: 20px;
+    margin-right: 5px;
+    font-size: 28px;
     cursor: pointer;
+    background-color: white;
+    -webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.10);
+    box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.10);
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: #e9ecf1;
+}
+
+.btn-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn img {
+    width: 26px;
+    height: 26px;
+}
+
+.btn-equal {
+   height: 90%;
+   width: 50px;
+    border-radius: 20px;
+    border: 0px;
+    margin-right: 5px;
+    font-size: 20px;
+    background-color: #0a58f6;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-equal:hover {
+    background-color: #0346cb;
+}
+
+.row-btn-equal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  height: 100%;
+}
+
+.btn-container {
+
+    display: flex;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+.color-blue {
+    color: #0a58f6;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 100%;
+    }
 }
