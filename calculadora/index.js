@@ -26,6 +26,7 @@ $$('.calculable').forEach((calculable) => {
 })
 
 
+
 $('.btn-clean').addEventListener('click', () => {
     const input = $('.input')
 
